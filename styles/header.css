@@ -11,17 +11,18 @@
     
     .left-section{
         display: flex;
-        align-items: center; 
-        width: 278px;
-        height: 78px;
-           
+        align-items: center;
+        margin-right: 16px;     
     }
-    
+
+    /*let users realise this image is clickable*/
+    .logo:hover {
+        cursor: pointer;
+    }
+
     .logo{
-        width: 100%;
-        height: auto; 
-        margin-right: 26px; 
-        min-width: 130px; 
+        width: 100%; 
+        min-width: 150px; 
     }
     
     .middle-section{
@@ -75,6 +76,11 @@
         margin-right: 20px;
     }
     
+    /*let users realise this icon is clickable*/
+    .cart:hover {
+        cursor: pointer;
+    }
+        
     /*styles for navagation*/
     nav a {
         text-decoration: none;
@@ -84,7 +90,6 @@
         margin-right: 2.1%;
         font-weight: 500;   
     }
-    
     
     .header-lower-part{
         padding-left: 14.5%;
