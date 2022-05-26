@@ -1,5 +1,5 @@
-/*vertical align to contents in header*/
 @media  (min-width:720px) {
+    /*vertical align to contents in header*/
     main {
         margin-left: 14.5%;
         margin-right: 14.5%;  
@@ -47,6 +47,5 @@
         font-size: 1vw;
         font-weight: 300;
     }
-
     
 }
