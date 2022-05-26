@@ -1,0 +1,39 @@
+@media (min-width:720px){
+    footer{
+        margin-top: 120px;
+    }
+    .footer-box {
+        display: flex;
+        justify-content: center;
+        height: 97px;
+        background-color: #176265;
+        column-gap: 30px;
+        align-items: center;
+        position: relative;  
+    }
+
+    .contact-info{
+        padding-bottom: 20px;
+    }
+    .contact-info p{
+        color: white;
+        font-size: 1vw;
+    }
+    .info-type {  
+        font-weight: 500;
+    }
+
+    .email-address{
+        font-weight: 300;
+    }
+
+    .policies{
+        position: absolute;
+        color: white;
+        font-size: 0.75vw;
+        bottom: 0;
+
+    }
+
+
+}

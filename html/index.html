@@ -3,45 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/homepage-main.css">
+    <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
-    <header>       
-        <div class="header-upper-part">
-            <div class="left-section">
-                <img class="logo" src="../icons/logo.svg" alt="">
-            </div>
-            
-            <div class="middle-section">
-                <input class="search-bar" type="text" placeholder="Search Books, Authors">
-                <img class="m-glass" src="../icons/m-glass.svg" alt="">
-            </div>
-            
-            <div class="right-section">
-                <div class="login">
-                    <p class="login-text">Log In</p>
-                    <img class="arrow-login" src="../icons/dropdown-arrow.svg" alt="">
+    <div class="desktop"> <!--contents that display on desktop devices-->
+        <header>       
+            <div class="header-upper-part">
+                <div class="left-section">
+                    <img class="logo" src="../icons/logo.svg" alt="">
                 </div>
-                <img class="cart" src="../icons/cart.svg" alt="">
-                <img class="heart" src="../icons/heart.svg" alt="">
+                
+                <div class="middle-section">
+                    <input class="search-bar" type="text" placeholder="Search Books, Authors">
+                    <img class="m-glass" src="../icons/m-glass.svg" alt="">
+                </div>
+                
+                <div class="right-section">
+                    <div class="login">
+                        <p class="login-text">Log In</p>
+                        <img class="arrow-login" src="../icons/dropdown-arrow.svg" alt="">
+                    </div>
+                    <img class="cart" src="../icons/cart.svg" alt="">
+                    <img class="heart" src="../icons/heart.svg" alt="">
+                </div>
             </div>
-        </div>
-        
-        <div class="header-lower-part">
-            <nav>
-                <a href="">HOME</a>
-                <a href="">BROWSE</a>
-                <a href="">EVENTS</a>
-                <a href="">PRE-ORDERS</a>
-                <a href="">SIGNED COPIES</a>
-                <a href="">COMMUNITY</a>
-                <a href="">ABOUT US</a>
-            </nav>
-        </div>
-    </header>
+            
+            <div class="header-lower-part">
+                <nav>
+                    <a href="../html/index.html">HOME</a>
+                    <a href="">BROWSE</a>
+                    <a href="">EVENTS</a>
+                    <a href="">PRE-ORDERS</a>
+                    <a href="">SIGNED COPIES</a>
+                    <a href="">COMMUNITY</a>
+                    <a href="">ABOUT US</a>
+                </nav>
+            </div>
+        </header>
     
+        <main>
+            <div class="event-container">
+                <img class="event-img" src="../images/event.png" alt="">
+            </div>
+            <p class="subtitle">
+                New Releases
+            </p>
+
+            <div class="books-row">
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-1.jpg" alt="">
+                    <p class="book-name">Sold on a monday</p>
+                    <p class="author">by Kristina McMorris</p>
+                </div>
+
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-2.jpg" alt="">
+                    <p class="book-name">The silent patient</p>
+                    <p class="author">by Alex Michaelides</p>
+                </div>
+
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-3.jpg" alt="">
+                    <p class="book-name">When We Believed 
+                        in Mermaids</p>
+                    <p class="author">by Barbara O’Neal</p>
+                </div>
+
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-4.jpg" alt="">
+                    <p class="book-name">The Last Thing He Told Me</p>
+                    <p class="author">by Laura Dave</p>
+                </div>   
+            </div>
+
+            <p class="subtitle">
+                Best Sellers
+            </p>
+            
+            <div class="books-row">
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-5.jpg" alt="">
+                    <p class="book-name">Desert Island</p>
+                    <p class="author">by Olivia T. Turner</p>
+                </div>
+
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-6.jpg" alt="">
+                    <p class="book-name">Boone & Charly: Upside Down Love</p>
+                    <p class="author">by Mallory Monroe</p>
+                </div>
+
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-7.jpg" alt="">
+                    <p class="book-name">The Memory of an 
+                        Elephant</p>
+                    <p class="author">by Alex Lasker
+                    </p>
+                </div>
+
+                <div class="book-profile">
+                    <img class="books-img" src="/images/book-8.jpg" alt="">
+                    <p class="book-name">The Art of War</p>
+                    <p class="author">by Sun Tzu and Thomas Cleary</p>
+                </div>   
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-box">
+                <div class="contact-info">
+                    <p class="info-type">
+                        GENERAL QUERIES       
+                    </p>
+                    <p class="email-address">
+                        info@printbookstore.com
+                    </p>
+                </div>
+
+                <div class="contact-info">
+                    <p class="info-type">
+                        EVENTS       
+                    </p>
+                    <p class="email-address">
+                        events@printbookstore.com
+                    </p>
+                </div>
+
+                <div class="contact-info">
+                    <p class="info-type">
+                        KID'S INQUIRIES      
+                    </p>
+                    <p class="email-address">
+                        kids@printbookstore.com
+                    </p>
+                </div>
+                <div class="policies">Privacy Policy | Terms and Conditions</div>
+            </div>
+            
+        </footer>
+    </div>
+        
 </body>
 </html>
