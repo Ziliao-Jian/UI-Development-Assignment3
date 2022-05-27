@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title><header></header></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/header.css">
+</head>
+<body>
+    <div class="mobile-header"><!--header that display on mobile devices-->
+        <header>
+            <div class="header-m"> <!--m stands for mobile-->
+                <div class="header-top-m">
+                    <div class="menu-container-m">
+                        <img class="menu-m" onclick="goHome()" src="../icons/menu.svg" alt="">
+                    </div>
+                    <div class="logo-container-m">
+                        <img class="logo-m" src="../icons/logo.svg" alt="">
+                    </div>
+                    <div class="cart-container-m">
+                        <img class="cart-m" onclick="goCart()" src="../icons/cart.svg" alt="">
+                    </div>
+                </div>
+                <div class="search-container-m">
+                    <input class="search-m" type="text" placeholder="Search Books, Authors">
+                    <img class="m-glass-m" src="../icons/m-glass.svg" alt="">
+                </div>
+            </div>
+        </header>
+    </div>
+    
+    <div class="desktop-header">
+        <header>       
+            <div class="header-upper-part-container">
+                <div class="header-upper-part">
+                    <div class="left-section">
+                        <img class="logo" onclick="goHome()" src="../icons/logo.svg" alt="">
+                    </div>
+        
+                    <div  class="middle-section">
+                        <input class="search-bar" type="text" placeholder="Search Books, Authors">
+                        <img class="m-glass" src="../icons/m-glass.svg" alt="">
+                    </div>
+                    
+                    <div class="right-section">
+                        <div class="login">
+                            <p class="login-text">LogIn</p>
+                            <img class="arrow-login" src="../icons/dropdown-arrow.svg" alt="">
+                        </div>
+                        <img onclick="goCart()" class="cart" src="../icons/cart.svg" alt="">
+                        <img class="heart" src="../icons/heart.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="header-lower-part-container" >
+                <div class="header-lower-part">
+                    <nav>
+                        <a href="../html/index.html">HOME</a>
+                        <a href="../html/product-list.html">BROWSE</a>
+                        <a href="">EVENTS</a>
+                        <a href="">PRE-ORDERS</a>
+                        <a href="">SIGNED COPIES</a>
+                        <a href="">COMMUNITY</a>
+                        <a href="">ABOUT US</a>
+                    </nav>
+                </div>
+            </div>
+            
+        </header>
+    
+</body>
