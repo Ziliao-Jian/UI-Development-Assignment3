@@ -6,52 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping cart</title>
     <link rel="stylesheet" href="../styles/general.css">
-    <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/shopping-cart-main.css">
-    <link rel="stylesheet" href="../styles/footer.css">
     <script src="../javascript/header.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('#header').load("header.html");
+      
+      });
+      </script>
 </head>
 <body>
-    <div class="desktop">
-        <header>       
-            <div class="header-upper-part"><!--contents that display on desktop devices-->
-                <div class="left-section">
-                    <img class="logo" onclick="goHome()" src="../icons/logo.svg" alt="">
-                </div>
-                
-                <div class="middle-section">
-                    <input class="search-bar" type="text" placeholder="Search Books, Authors">
-                    <img class="m-glass" src="../icons/m-glass.svg" alt="">
-                </div>
-                
-                <div class="right-section">
-                    <div class="login">
-                        <p class="login-text">Log In</p>
-                        <img class="arrow-login" src="../icons/dropdown-arrow.svg" alt="">
-                    </div>
-                    <img onclick="goCart()" class="cart" src="../icons/cart.svg" alt="">
-                    <img class="heart" src="../icons/heart.svg" alt="">
-                </div>
-            </div>
-            
-            <div class="header-lower-part">
-                <nav>
-                    <a href="../html/index.html">HOME</a>
-                    <a href="../html/product-list.html">BROWSE</a>
-                    <a href="">EVENTS</a>
-                    <a href="">PRE-ORDERS</a>
-                    <a href="">SIGNED COPIES</a>
-                    <a href="">COMMUNITY</a>
-                    <a href="">ABOUT US</a>
-                </nav>
-            </div>
-        </header>
-
-        <main>
-
-        </main>
-
-        
-    </div>
+    <header id="header">
+    </header>
 </body>
 </html>
