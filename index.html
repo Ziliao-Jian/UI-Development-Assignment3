@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/homepage-main.css">
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <script src="javascript/index.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
@@ -21,13 +20,13 @@
     <header>
         <div class="mobile-header"><!--header that display on mobile devices-->
             <header>
-                <div class="header-m"> <!--m stands for mobile-->
+                <div class="header-m"> 
                     <div class="header-top-m">
                         <div class="menu-container-m">
-                            <img class="menu-m" onclick="goHome()" src="icons/menu.svg" alt="">
+                            <img class="menu-m" onclick="showNav()" src="icons/menu.svg" alt="">
                         </div>
                         <div class="logo-container-m">
-                            <img class="logo-m" src="icons/logo.svg" alt="">
+                            <img class="logo-m" onclick="goHome()" src="icons/logo.svg" alt="">
                         </div>
                         <div class="cart-container-m">
                             <img class="cart-m" onclick="goCart()" src="icons/cart.svg" alt="">
@@ -40,8 +39,19 @@
                 </div>
             </header>
         </div>
+
+        <div class="menu-content no-desktop" id="dropdown">
+            <a href="index.html">HOME</a>
+            <a href="html/product-list.html">BROWSE</a>
+            <a href="">EVENTS</a>
+            <a href="">PRE-ORDERS</a>
+            <a href="">SIGNED COPIES</a>
+            <a href="">COMMUNITY</a>
+            <a href="">ABOUT US</a>
+            <img class="close" onclick="showNav()" src="icons/close.svg" alt="">
+        </div>
         
-        <div class="desktop-header">
+        <div class="desktop-header"><!--header that display on desktop devices-->
             <header>       
                 <div class="header-upper-part-container">
                     <div class="header-upper-part">
@@ -56,7 +66,7 @@
                         
                         <div class="right-section">
                             <div class="login">
-                                <p class="login-text">LogIn</p>
+                                <p class="login-text">Login</p>
                                 <img class="arrow-login" src="icons/dropdown-arrow.svg" alt="">
                             </div>
                             <img onclick="goCart()" class="cart" src="icons/cart.svg" alt="">
@@ -82,7 +92,7 @@
             </header>
     </header>
     <main>
-        <div class="event-container">
+        <div class="event-container"><!--contains the event image-->
             <img class="event-img" src="images/event.png" alt="">
         </div>
         <p class="subtitle">
@@ -91,26 +101,34 @@
 
         <section class="books-row">
             <div class="book-profile">
-                <img class="books-img" src="images/book-1.jpg" alt="">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-1.jpg" alt="">
+                </div>
                 <p class="book-name">Sold on a monday</p>
                 <p class="author">by Kristina McMorris</p>
             </div>
 
             <div class="book-profile">
-                <img class="books-img" src="images/book-2.jpg" alt="">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-2.jpg" alt="">
+                </div>
                 <p class="book-name">The silent patient</p>
                 <p class="author">by Alex Michaelides</p>
             </div>
 
-            <div class="book-profile">
-                <img class="books-img" src="images/book-3.jpg" alt="">
+            <div class="book-profile no-mobile">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-3.jpg" alt="">
+                </div>
                 <p class="book-name">When We Believed 
                     in Mermaids</p>
                 <p class="author">by Barbara O’Neal</p>
             </div>
 
-            <div class="book-profile">
-                <img class="books-img" src="images/book-4.jpg" alt="">
+            <div class="book-profile no-mobile">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-4.jpg" alt="">
+                </div>
                 <p class="book-name">The Last Thing He Told Me</p>
                 <p class="author">by Laura Dave</p>
             </div>   
@@ -122,27 +140,35 @@
         
         <section class="books-row">
             <div class="book-profile">
-                <img class="books-img" src="images/book-5.jpg" alt="">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-5.jpg" alt="">
+                </div>
                 <p class="book-name">Desert Island</p>
                 <p class="author">by Olivia T. Turner</p>
             </div>
 
             <div class="book-profile">
-                <img class="books-img" src="images/book-6.jpg" alt="">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-6.jpg" alt="">
+                </div>
                 <p class="book-name">Boone & Charly: Upside Down Love</p>
                 <p class="author">by Mallory Monroe</p>
             </div>
 
-            <div class="book-profile">
-                <img class="books-img" src="images/book-7.jpg" alt="">
+            <div class="book-profile no-mobile">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-7.jpg" alt="">
+                </div>
                 <p class="book-name">The Memory of an 
                     Elephant</p>
                 <p class="author">by Alex Lasker
                 </p>
             </div>
 
-            <div class="book-profile">
-                <img class="books-img" src="images/book-8.jpg" alt="">
+            <div class="book-profile no-mobile">
+                <div class="books-img-container">
+                    <img class="books-img" src="images/book-8.jpg" alt="">
+                </div>
                 <p class="book-name">The Art of War</p>
                 <p class="author">by Sun Tzu and Thomas Cleary</p>
             </div>   

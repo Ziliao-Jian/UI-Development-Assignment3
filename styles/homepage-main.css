@@ -3,13 +3,14 @@ main {
     max-width: 1363px;
     width: 93%;
     margin: auto;
+    margin-top: 14px;
 }
 
 /*this container is to make the event image responsive*/
 .event-container{
     width: 100%;
     height: auto;
-    margin-top: 15px;   
+       
 }
 .event-img {
     width: 100%;
@@ -20,8 +21,8 @@ main {
     color: #3B8184;
     font-size: 1.7vw;
     font-weight: 500;
-    margin-top: 18px;
-    margin-bottom: 15px;
+    margin-top: 1.2%;
+    margin-bottom: 1.2%;
 }
 
 .books-row {
@@ -32,9 +33,14 @@ main {
 .book-profile{
     width: 21%;
 }
+
+.books-img-container {
+    height: 85%;
+}
+
 .books-img{
     width: 100%;
-    height: 88%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -48,6 +54,27 @@ main {
     font-weight: 300;
 }
 
-@media (max-width:750.2px) {
 
+@media (max-width:720.2px) {
+    .no-mobile{
+        display: none;
+    }
+
+    .book-profile {
+        width: 47%;
+    }
+    
+    .subtitle{
+        font-size: 15px;
+    }
+    
+    .book-name{
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    
+    .author {
+        font-size: 3vw;
+        font-weight: 300;
+    }
 }

@@ -11,13 +11,13 @@
 <body>
     <div class="mobile-header"><!--header that display on mobile devices-->
         <header>
-            <div class="header-m"> <!--m stands for mobile-->
+            <div class="header-m"> 
                 <div class="header-top-m">
                     <div class="menu-container-m">
-                        <img class="menu-m" onclick="goHome()" src="../icons/menu.svg" alt="">
+                        <img class="menu-m" onclick="showNav()" src="../icons/menu.svg" alt="">
                     </div>
                     <div class="logo-container-m">
-                        <img class="logo-m" src="../icons/logo.svg" alt="">
+                        <img class="logo-m" onclick="goHome()" src="../icons/logo.svg" alt="">
                     </div>
                     <div class="cart-container-m">
                         <img class="cart-m" onclick="goCart()" src="../icons/cart.svg" alt="">
@@ -29,6 +29,17 @@
                 </div>
             </div>
         </header>
+    </div>
+
+    <div class="menu-content no-desktop" id="dropdown">
+        <a href="../index.html">HOME</a>
+        <a href="product-list.html">BROWSE</a>
+        <a href="">EVENTS</a>
+        <a href="">PRE-ORDERS</a>
+        <a href="">SIGNED COPIES</a>
+        <a href="">COMMUNITY</a>
+        <a href="">ABOUT US</a>
+        <img class="close" onclick="showNav()" src="../icons/close.svg" alt="">
     </div>
     
     <div class="desktop-header">
@@ -46,7 +57,7 @@
                     
                     <div class="right-section">
                         <div class="login">
-                            <p class="login-text">LogIn</p>
+                            <p class="login-text">Login</p>
                             <img class="arrow-login" src="../icons/dropdown-arrow.svg" alt="">
                         </div>
                         <img onclick="goCart()" class="cart" src="../icons/cart.svg" alt="">
