@@ -200,11 +200,13 @@ nav a {
         z-index: 1;
         top: 0;
         background-color: #E6E6E6;
-        width: 62%;
+        width: 60%;
         display: flex;
         flex-direction: column;
         box-shadow: 6px 12px 6px rgba(0, 0, 0, 0.15); 
         display: none;
+        padding-top: 36px;
+        
     }
 
     .menu-content a{
@@ -213,15 +215,15 @@ nav a {
         font-size: 5.5vw;
         font-weight: 500;
         margin-left: 15%;
-        margin-top: 30px;
-        margin-bottom: 45px;
+        
+        margin-bottom: 60px;
     }
 
     .close {
         width: 7%;
         position: absolute;
         left: 80%;
-        top: 4.5%;
+        top: 42px;
     }
     
     .show {display: flex;}
