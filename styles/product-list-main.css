@@ -6,6 +6,7 @@
 .no-desktop{
     display: none;
 }
+
 .filter{
     background-color: #10BBD5;
     color: white;
@@ -63,6 +64,7 @@
 }
 .book-profile{
     width: 100%;
+    padding-left: 3%;
 }
 
 .books-img-container{
@@ -75,6 +77,21 @@
     height: 100%;
 }
 
+.books-img:hover{
+    cursor: pointer;
+}
+
+.book-name:hover{
+    cursor: pointer;
+}
+
+.add-cart:hover{
+    cursor: pointer;
+}
+
+.add-wishlist:hover{
+    cursor: pointer;
+}
 .price{
     color: #F63796;
     font-size: 1.4vw;
@@ -267,7 +284,6 @@
         right: 8%;
         width: 3vw;
     }
-
 
 }
 

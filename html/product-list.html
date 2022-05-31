@@ -12,6 +12,7 @@
     <script>
       $(document).ready(function(){
         $('#header').load("header.html");
+		$('#footer').load("footer.html");
         
       });
       </script>
@@ -72,13 +73,13 @@
 			<div class="books-grid">
 				<div class="book-profile">
 					<div class="books-img-container">
-						<img class="books-img" src="../images/book-7.jpg" alt="">
+						<img class="books-img" onclick="goProduct()" src="../images/book-7.jpg" alt="">
 					</div>
-					<p class="book-name">The Memory of an 
+					<p class="book-name" onclick="goProduct()" >The Memory of an 
 						Elephant</p>
 					<p class="author">by Alex Lasker</p>
 					<p class="price">$13.99</p>
-					<button class="add-cart">Add to cart</button>
+					<button class="add-cart" onclick="goCart()">Add to cart</button>
 					<button class="add-wishlist">Add to wishlist</button>
 				</div>
 
@@ -159,5 +160,7 @@
 		<img class="arrow-right" src="../icons/arrow-right.svg" alt="">
 		</div>	
 	</div>
+
+	<footer id="footer"></footer>
 </body>
 </html>

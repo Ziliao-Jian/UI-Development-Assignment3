@@ -9,3 +9,7 @@ function goCart() {
 function showNav() {
     document.getElementById("dropdown").classList.toggle("show");
   }
+
+function goProduct() {
+    window.location.href ="../html/product-page.html"
+}
