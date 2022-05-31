@@ -1,6 +1,280 @@
-@media  (min-width:720px) {
-    main {
-        margin-left: 14.5%;
-        margin-right: 14.5%;  
-    }
+.content{
+    display: flex;
+    column-gap: 2vw;
 }
+
+.no-desktop{
+    display: none;
+}
+.filter{
+    background-color: #10BBD5;
+    color: white;
+    width: 16%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow:3px 6px 3px rgba(0, 0, 0, 0.15); 
+    padding-left: 1%;
+    height: 100%;
+}
+
+.filter-title{
+    font-size: 1.4vw;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.filter-sub {
+    font-size: 1.2vw;
+}
+
+.filter-input{
+    border-radius: 3px;
+    width: 80%;
+    border: none;
+    margin-bottom: 10%;
+    height: 2vh;
+}
+
+
+.dropdown{
+    margin-left: -20px;
+}
+
+.book-name{
+    font-size: 1vw;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.author {
+    font-size: 0.8vw;
+    font-weight: 300;
+}
+
+.books-grid{
+    display: grid;
+    width: 100%;
+    margin-left: 2vw;
+    grid-template-columns: 32% 32% 32%;
+    row-gap: 3%;
+    column-gap: 3vw;
+      
+}
+.book-profile{
+    width: 100%;
+}
+
+.books-img-container{
+    width: 75%;
+    height: 65%;
+}
+
+.books-img{
+    width: 100%;
+    height: 100%;
+}
+
+.price{
+    color: #F63796;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+.add-cart {
+    display: block;
+    background-color: #10BBD5;
+    color: white;
+    width: 60%;
+    height: 4vh;
+    font-weight: 500;
+    font-size: 1vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+}
+
+.add-wishlist{
+    background-color: #EEEEEE;
+    color: #636161;
+    width: 60%;
+    height: 4vh;
+    font-weight: 500;
+    font-size: 0.8vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1vh;
+}
+
+.page-select{
+    display: flex;
+    border-style: solid;
+    width: 80%;
+    border-radius: 15px;
+    border-width: 1px;
+    position: relative;
+    margin: auto;
+    max-width: 320px;
+    margin-top: 50px;
+    height: 3vh;
+    align-items: center;
+}
+
+.page-left{
+    padding-left: 20px;
+    padding-right: 15px;
+    border-right: 1px solid;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    color: #636161;
+    font-weight: 500;
+}
+
+.page-middle{
+    letter-spacing: 0.4vw;
+    white-space: nowrap;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.page-current{
+    color: #10BBD5;
+    padding-right: 5px;
+}
+
+.page-right{
+    border-left: 1px solid;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: #636161;
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.arrow-left{
+    position: absolute;
+    width: 8px;
+    top: 8px;
+    left: 2px;
+}
+
+.arrow-right{
+    position: absolute;
+    right: 2px;
+    width: 8px;
+    top: 8px;
+}
+
+@media (max-width:720.2px) {
+    .no-mobile{
+        display: none;
+    }
+
+    .no-desktop{
+        display: block;
+    }
+    .books-grid{
+        display: grid;
+        width: 100%;
+        margin-left: 2vw;
+        grid-template-columns: 45% 45%;
+        row-gap: 4%;
+        column-gap: 6vw;
+    }
+    
+    .book-name{
+        font-size: 4vw;
+        font-weight: 500;
+        white-space: normal;
+    }
+    
+    .author {
+        font-size: 2vw;
+        font-weight: 300;
+        
+    }
+
+    .price{
+        font-size: 4vw;
+    }
+
+    .page-select{
+        margin-top: 80px;
+    }
+
+    .book-profile{
+        padding-left: 2%;
+    }
+
+    .add-cart{
+        font-size: 4vw;
+        width: 75%;
+    }
+
+    .add-wishlist{
+        font-size: 3vw;
+        width: 75%;
+    }
+
+    .books-img-container{
+        width: 100%;
+        height: 65%;
+    }
+
+    .arrow-left{
+        position: absolute;
+        width: 6px;
+        top: 8px;
+        left: 2px;
+    }
+    
+    .arrow-right{
+        position: absolute;
+        right: 2px;
+        width: 6px;
+        top: 8px;
+    }
+
+    .filter-m{
+        width: 92%;
+        margin: auto;
+        font-family: roboto;
+        font-size: 5vw;
+        height: 7vw;
+        background-color: #10BBD5;
+        color: white;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        box-shadow: 3px 6px 3px rgba(0, 0, 0, 0.15);
+        border: none;
+    }
+
+    .filter-m-container{
+        position: relative;
+    }
+
+    .dropdown-m{
+        position: absolute;
+        bottom: 35%;
+        right: 8%;
+        width: 3vw;
+    }
+
+
+}
+
+
+
+
+
+
+
+
