@@ -1,0 +1,194 @@
+.content{
+    margin-top: 4%;
+    display: flex;
+    column-gap: 3%;
+}
+
+.product{
+    width: 34%;
+}
+
+.book-profile{
+    width: 100%;
+    
+}
+
+.books-img-container{
+    width: 100%;
+    height: 100%;
+}
+
+.books-img{
+    width: 100%;
+    height: 100%;
+}
+
+.book-name{
+    font-size: 1.6vw;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.author {
+    font-size: 1.4vw;
+    font-weight: 300;
+}
+.add-cart:hover{
+    cursor: pointer;
+}
+
+.add-wishlist:hover{
+    cursor: pointer;
+} 
+.price{
+    color: #F63796;
+    font-size: 2.8vw;
+    font-weight: 500;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.add-cart {
+    display: block;
+    background-color: #10BBD5;
+    color: white;
+    width: 70%;
+    height: 4vw;
+    font-weight: 500;
+    font-size: 1.8vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1%;
+}
+
+.add-wishlist{
+    background-color: #EEEEEE;
+    color: #636161;
+    width: 70%;
+    height: 4vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1vh;
+}
+
+.product-info{
+    flex: 1;
+    position: relative;
+}
+
+.description{
+    box-shadow:3px 6px 3px rgba(0, 0, 0, 0.15); 
+    margin-bottom: 13%;
+}
+
+.sub-title{
+    color: #3B8184;
+    font-size: 1.8vw;
+    font-weight: 500;
+    padding-top: 1%;
+}
+
+.text{
+    font-size: 1.35vw;
+    line-height: 2vw;
+    padding-bottom: 4%;
+    line-height: 2.4vw;
+}
+
+.text-details{
+    font-size: 1.2vw;
+    line-height: 2vw;
+    padding-bottom: 4%;
+    line-height: 2.4vw;
+    color: #4A494A;
+}
+
+.text-details span{
+    font-weight: 500;
+}
+
+@media (max-width:720.2px) {
+    .content{
+        display: block;
+    }
+
+    .product{
+        width: 93%;
+        padding-left: 3.5%;
+    }
+
+    .book-name{
+        font-size: 6vw;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+    
+    .author {
+        font-size: 4.5vw;
+        font-weight: 300;
+    }
+
+    .add-cart {
+        display: block;
+        background-color: #10BBD5;
+        color: white;
+        width: 70%;
+        height: 10vw;
+        font-weight: 500;
+        font-size: 6vw;
+        font-family: roboto;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 1%;
+    }
+    
+    .add-wishlist{
+        background-color: #EEEEEE;
+        color: #636161;
+        width: 70%;
+        height: 10vw;
+        font-weight: 500;
+        font-size: 5vw;
+        font-family: roboto;
+        border: none;
+        border-radius: 7px;
+        margin-top: 1vh;
+    }
+
+    .price{
+        color: #F63796;
+        font-size: 7vw;
+        font-weight: 500;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .text{
+        font-size: 3.5vw;
+        line-height: 2vw;
+        padding-bottom: 4%;
+        line-height: 5vw;
+    }
+    
+    .text-details{
+        font-size: 3vw;
+        line-height: 2vw;
+        padding-bottom: 4%;
+        line-height: 5vw;
+        color: #4A494A;
+    }
+    
+    .sub-title{
+        font-size: 5vw;
+        margin-top: 2%;
+    }
+
+    .description{
+        width: 95%;
+        padding-left: 2.5%;
+    }
+}

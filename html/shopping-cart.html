@@ -12,6 +12,7 @@
     <script>
       $(document).ready(function(){
         $('#header').load("header.html");
+        $('#footer').load("footer.html");
       
       });
       </script>
@@ -19,5 +20,54 @@
 <body>
     <header id="header">
     </header>
+
+    <main>
+        <div class="title">
+            Your Cart
+        </div>
+        <div class="cart-content" >
+            <div class="cart-left">
+                <div class="books-img-container">
+                    <img class="books-img" onclick="goProduct()" src="../images/book-7.jpg" alt="">
+                </div>
+                <div class="change-num">
+                    <img class="plus" src="../icons/minus.svg" alt="">
+                    <p class="item-num">1</p>
+                    <img class="minus" src="../icons/plus.svg" alt="">
+                </div>
+            </div>
+    
+            <div class="cart-right">
+                <p class="book-name" onclick="goProduct()" >The Memory of an 
+                    Elephant</p>
+                <p class="author">by Alex Lasker</p>
+                <p class="price">$13.99 <span class="each">Each</span> </p>
+                <div class="cart-bottom">
+                    <p class="subtotal"><span class="subtotal-text">Subtotal:</span> <span class="price">$13.99</span> </p>
+                    <button class="remove">Remove</button>
+                </div>
+            </div>
+        </div>
+        <hr class="divide">
+        <div class="coupon">
+            <div class="coupon-row">
+                <p class="subtotal-text">Add coupon:</p>
+                <input class="coupon-input" type="text">
+            </div>
+            <div class="button-price">
+                <button class="apply-btn">Apply</button>
+                <p class="total-row"><span class="subtotal-text">Total:</span> <span class="price">$13.99</span> </p>
+            </div>
+        </div>
+
+        <div class="btn-row">
+            <button  onclick="goList()" class="c-shopping">Continue shopping</button>
+            <button onclick="goCheckout()" class="checkout">Checkout</button>
+        </div>
+        
+        
+    </main>
+
+    <footer id="footer"></footer>
 </body>
 </html>

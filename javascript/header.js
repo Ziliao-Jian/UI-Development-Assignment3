@@ -13,3 +13,11 @@ function showNav() {
 function goProduct() {
     window.location.href ="../html/product-page.html"
 }
+
+function goList() {
+    window.location.href ="../html/product-list.html"
+}
+
+function goCheckout() {
+    window.location.href ="../html/checkout.html"
+}

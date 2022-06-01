@@ -1,10 +1,4 @@
   /*vertical align to contents in header*/
-main {
-    max-width: 1363px;
-    width: 93%;
-    margin: auto;
-    margin-top: 14px;
-}
 
 /*this container is to make the event image responsive*/
 .event-container{

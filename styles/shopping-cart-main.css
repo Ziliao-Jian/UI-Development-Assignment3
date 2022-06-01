@@ -1,0 +1,321 @@
+.title{
+    color: #176265;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.cart-content{
+    display: flex;
+    margin-top: 2%;
+}
+
+.cart-left{
+    width: 18%;
+    margin-right: 2%;
+}
+
+.books-img-container{
+    width: 100%;
+    height: 90%;
+}
+
+.books-img{
+    width: 100%;
+    height: 100%;
+}
+
+.change-num{
+    display: flex;
+    justify-content: center;
+    column-gap: 20%;
+    padding-top: 5%;
+}
+
+.plus{
+    width: 2.4vw;
+}
+
+.minus{
+    width: 2.4vw;
+}
+
+.item-num{
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+
+.cart-right{
+    flex: 1;
+}
+.book-name{
+    font-size: 1.6vw;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-bottom: 2%;
+}
+
+.author {
+    font-size: 1.4vw;
+    font-weight: 300;
+    margin-bottom: 2%;
+}
+
+.price{
+    color: #F63796;
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.each{
+    color: black;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.cart-bottom{
+    float: right;
+    padding-top: 15%;
+}
+
+.subtotal-text{
+    color: #176265;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+.remove{
+    background-color: #EEEEEE;
+    color: #636161;
+    width: 100%;
+    height: 3vw;
+    font-weight: 500;
+    font-size: 1.2vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+    margin-top: 1vh;
+}
+
+.divide{
+    height: 0.1vw;
+    margin-top: 1%;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 4%;
+    width: 42%;
+    box-shadow:0px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.coupon-row{
+    display: flex;
+    column-gap: 4%;
+    
+}
+
+.coupon-input{
+    width: 60%;
+    border-radius: 6px;
+    border-width: 1px;  
+}
+
+.apply-btn{
+    background-color: #176265;
+    color: white;
+    width: 100%;
+    height: 3vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    
+}
+
+.button-price{
+    margin-left: auto;
+    padding-right: 2%;
+    padding-bottom: 5%;
+}
+
+
+.btn-row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-shopping{
+    background-color: white;
+    color: #15383D;
+    width: 25vw;
+    max-width: 240px;
+    height: 2vw;
+    font-weight: 500;
+    font-size: 1.2vw;
+    font-family: roboto;
+    border: none;
+    word-wrap: nowrap;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.15);
+}
+
+.c-shopping:hover{
+    cursor: pointer;
+}
+
+.checkout{
+    display: block;
+    background-color: #10BBD5;
+    color: white;
+    width: 25vw;
+    max-width: 240px;
+    height: 3.4vw;
+    font-weight: 500;
+    font-size: 1.8vw;
+    font-family: roboto;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1%;
+}
+
+.checkout:hover{
+    cursor:pointer;
+}
+
+@media (max-width:720.2px) {
+    .title{
+        font-size: 6vw;
+    }
+    
+    .cart-left{
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .cart-bottom{
+        float: right;
+        padding-top: 40%;
+    }
+    
+
+    .book-name{
+        font-size: 4.8vw;
+        font-weight: 500;
+        white-space: normal;
+    }
+    
+    .author {
+        font-size: 3.2vw;
+        font-weight: 300;
+    }
+
+    .plus{
+        width: 5vw;
+    }
+    
+    .minus{
+        width: 5vw;
+    }
+
+    .cart-right{
+        width: 60%;
+    }
+    .price{
+        color: #F63796;
+        font-size: 5vw;
+        font-weight: 500;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .each{
+        color: black;
+        font-weight: 400;
+        font-size: 3.2vw;
+    }
+
+    .remove{
+        background-color: #EEEEEE;
+        color: #636161;
+        width: 100%;
+        height: 8vw;
+        font-weight: 500;
+        font-size: 5vw;
+        font-family: roboto;
+        border: none;
+        border-radius: 7px;
+        margin-top: 1vh;
+    }
+    
+    .divide{
+        margin-top: 20px;
+    }
+    
+
+    .subtotal-text{
+        color: #176265;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .coupon{
+        width: 100%;
+    }
+
+    .coupon-input{
+        width: 62%;
+        border-radius: 6px;
+        border-width: 1px;  
+    }
+
+    .apply-btn{
+        background-color: #176265;
+        color: white;
+        width: 100%;
+        height: 7.5vw;
+        font-size: 5vw;
+        font-family: roboto;
+        border: none;
+        border-radius: 7px;
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }   
+
+    .c-shopping{
+        background-color: white;
+        color: #15383D;
+        width: 35vw;
+        max-width: 240px;
+        height: 6vw;
+        font-weight: 500;
+        font-size: 3vw;
+        font-family: roboto;
+        border: none;
+        word-wrap: nowrap;
+        box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .checkout{
+        display: block;
+        background-color: #10BBD5;
+        color: white;
+        width: 30vw;
+        max-width: 240px;
+        height: 8vw;
+        font-weight: 500;
+        font-size: 4vw;
+        font-family: roboto;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 1%;
+    }
+    
+}
