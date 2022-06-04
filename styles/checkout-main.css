@@ -154,6 +154,7 @@ hr{
 
 .card-1{
     width: 5vw;
+    margin-left: 16%;
 }
 
 .input-box-right{
@@ -297,6 +298,10 @@ hr{
     
     .right-part{
         width: 93%;
+    }
+
+    .input-box::placeholder{
+        font-size: 14px;
     }
 }
 
