@@ -1,0 +1,302 @@
+main{
+    margin-top: 2%;
+}
+
+.content{
+    display: flex;
+    column-gap: 2%;
+}
+
+.left-part{
+    width: 32%;
+}
+
+.title{
+    color: #176265;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.hint{
+    font-family: Montserrat;
+    color: #393E46;
+    margin-top: 2%;
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+
+.star{
+    color: #AD175B;
+}
+
+.input-section{
+    margin-top: 7%;
+}
+
+.sub-title{
+    font-size: 1.1vw;
+    color: #707070;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+
+.input-box{
+    width: 90%;
+    height: 2.6vw;
+    border-color: #D2D2D2;
+    border-style: solid;
+    margin-top: 2%;
+}
+
+.dropdown{
+    width: 0.8vw;
+    margin-left: -10%;
+}
+
+.title-2{
+    margin-top: 10%;
+}
+
+.middle-part{
+    width: 30%;
+}
+
+.shipping-address{
+    display: flex;
+    column-gap: 2%;
+    width: 100%;
+    align-items: center;
+}
+
+.check{
+    margin-top: 2%;
+}
+
+
+.hint-middle{
+    margin-top: 6%;
+}
+
+.right-part{
+    flex: 1;
+    margin-left: 2%;
+}
+
+.title-right{
+    margin-bottom: 6%;
+}
+
+.title-right2{
+    margin-top: 10%;
+}
+
+.items-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.item-text{
+    font-size: 1vw;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+hr{
+    color: #D2D2D2;
+    margin-bottom: 4%;
+}
+
+.item-name{
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.item-price{
+    font-family: roboto;
+    font-weight: 500;
+    color: #F63796;
+    font-size: 1vw;
+}
+
+.free-shipping{
+    font-size: 0.8vw;
+    font-family: roboto;
+}
+
+.credit-card{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3B88FC;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-row{
+    display: flex;
+    align-items: center;
+    padding-top: 5%;
+    width: 85%;
+    margin: auto;
+    white-space: nowrap;
+    margin-bottom: 5%;
+}
+
+.card-text{
+    font-size: 1vw;
+}
+
+.selected{
+    width: 1vw;
+}
+
+.card-1{
+    width: 5vw;
+}
+
+.input-box-right{
+    padding-left: 2%;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+
+.card-input{
+    align-self: center;
+}
+
+.date-input{
+    margin-left: -2%;
+    padding-left: 2%;
+}
+
+.input-box::placeholder{
+    font-size: 0.8vw;
+    font-family: roboto;
+    font-weight: 500;
+    padding-left: 8%;
+    color: #b3b1b1;
+}
+
+.paypal{
+    border-style: solid;
+    border-color: #D2D2D2;
+    border-width: 1px;
+    margin-top: 10%;
+}
+
+.card-2{
+    margin-left: 48%;
+}
+
+.place-order{
+    display: block;
+    background-color: #176265;
+    color: white;
+    width: 16vw;
+    height: 3.2vw;
+    font-weight: 700;
+    font-size: 1.4vw;
+    font-family: Montserrat;
+    border: none;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20%;
+}
+
+.place-order:hover{
+    cursor: pointer;
+}
+
+.terms{
+    display: flex;
+}
+
+.terms-text{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+@media (max-width:720.2px) {
+    .content{
+        display: block;
+    }
+
+    .left-part{
+        width: 93%;
+    }
+
+    .middle-part{
+        width: 93%;
+        margin-top: 10%;
+    }
+
+    .right-part{
+        margin-top: 10%;
+    }
+
+    .title{
+        font-size: 5vw;
+    }
+
+    .sub-title{
+        font-size: 4vw;
+    }
+    
+    .input-box{
+        height: 6vw;
+    }
+
+    .dropdown{
+        width: 2.5vw;
+    }
+
+    .hint{
+        font-size: 3.5vw;
+    }
+
+    .item-text{
+        font-size: 4vw;
+    }
+    .item-name{
+        font-size: 4vw;
+    }
+
+    .item-price{
+        font-size: 4.5vw;
+    }
+
+    .items-info{
+        font-size: 4vw;
+    }
+
+    .free-shipping{
+        font-size: 3vw;
+    }
+
+    .selected{
+        width: 3vw;
+    }
+
+    .card-1{
+        width: 14vw;
+    }
+
+    .card-input{
+        padding-left: 7px;
+    }
+
+    .place-order{
+        width: 50vw;
+        height: 15vw;
+        font-size: 6vw;
+    }
+    
+    .right-part{
+        width: 93%;
+    }
+}
+

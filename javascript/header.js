@@ -21,3 +21,7 @@ function goList() {
 function goCheckout() {
     window.location.href ="../html/checkout.html"
 }
+
+function goConfirm(){
+    window.location.href ="../html/confirmation.html"
+}

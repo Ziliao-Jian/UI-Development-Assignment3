@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>checkout</title>
     <link rel="stylesheet" href="../styles/general.css">
-    <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/checkout-main.css">
-    <link rel="stylesheet" href="../styles/footer.css">
     <script src="../javascript/header.js"></script>
     <script src="../javascript/header.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -22,7 +20,119 @@
 </head>
 <body>
     <header id="header"></header>
-        
+    
+    <main>
+        <div class="content">
+            <div class="left-part">
+                <p class="title">SHIPPING DETAILS</p>
+                <p class="hint"><span class="star">*</span> required fields</p>
+                <div class="input-section">
+                    <p class="sub-title">Full Name<span class="star">&nbsp&nbsp*</span></p>
+                    <input class="input-box" type="text">
+                </div>
+
+                <div class="input-section">
+                    <p class="sub-title">Country<span class="star">&nbsp&nbsp*</span></p>
+                    <input class="input-box" type="text">
+                    <img class="dropdown" src="../icons/arrow-down-checkout.svg" alt="">
+                </div>
+
+                <div class="input-section">
+                    <p class="sub-title">Street Address<span class="star">&nbsp&nbsp*</span></p>
+                    <input class="input-box" type="text">
+                </div>
+                <p class="hint">+ Add another address field (optional)</p>
+
+                <div class="input-section">
+                    <p class="sub-title">Postcode / ZIP<span class="star">&nbsp&nbsp*</span></p>
+                    <input class="input-box" type="text">
+                </div>
+
+                <p class="title title-2">CONTACT INFORMATION</p>
+
+                <div class="input-section">
+                    <p class="sub-title">Email<span class="star">&nbsp&nbsp*</span></p>
+                    <input class="input-box" type="text">
+                </div>
+
+                <div class="input-section">
+                    <p class="sub-title">Phone<span class="star">&nbsp&nbsp*</span></p>
+                    <input class="input-box" type="text">
+                </div>
+            </div>
+
+            <div class="middle-part">
+                <p class="title">BILLING DETAILS</p>
+                <div class="shipping-address">
+                    <img class="check" src="../icons/checkmark.svg" alt="">
+                    <p class="hint">Same as shipping address</p>
+                </div>
+
+                <p class="title title-2">ADDITIONAL OPTIONS</p>
+                <p class="hint hint-middle">+ Add a note to this order</p>
+                <p class="hint hint-middle">+ Apply a coupon code</p>
+            </div>
+
+            <div class="right-part">
+                <p class="title title-right">YOUR ORDER</p>
+                <div class="items-info">
+                    <p class="item-text">PRODUCT</p>
+                    <p class="item-text">TOTAL</p>
+                </div>
+                <hr>
+
+                <div class="items-info">
+                    <p class="item-name">The Memory of an Elephant</p>
+                    <p class="item-price">$13.99</p>
+                </div>
+                <hr>
+
+                <div class="items-info">
+                    <p class="item-text">SHIPPING</p>
+                    <p class="free-shipping">FREE SHIPPING</p>
+                </div>
+                <hr>
+
+                <div class="items-info">
+                    <p class="item-text">TOTAL</p>
+                    <p class="item-price">$13.99</p>
+                </div>
+
+                <p class="title title-right2">PAYMENT METHOD</p>
+
+                <div class="credit-card">
+                    <div class="card-row">
+                        <img class="selected" src="../icons/selected.svg" alt="">
+                        <p class="sub-title card-text">Credit Card (Stripe)</p>
+                        <img class="card-1" src="../icons/card-1.svg" alt="">
+                    </div>
+                    <div class="card-input">
+                        <input class="input-box input-box-right" type="text" placeholder="Card number">
+                        <input class="input-box input-box-right date-input" type="text" placeholder="MM / YY CVC">
+                    </div>
+                </div>
+
+                <div class="paypal">
+                    <div class="card-row">
+                        <img class="selected" src="../icons/unselected.svg" alt="">
+                        <p class="sub-title card-text">PayPal</p>
+                        <img class="card-1 card-2" src="../icons/card-2.svg" alt="">
+                    </div>
+                </div>
+
+                
+
+                <div class="terms">
+                    <img class="selected" src="../icons/unselected.svg" alt="">   
+                    <p class="hint terms-text">I have read and agree to the website terms and conditions<span class="star">*</span> </p>
+                    
+                </div>
+                <button type="submit" onclick="goConfirm()" class="place-order">Place Order</button>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer"></footer>
   
 </body>
 </html>
