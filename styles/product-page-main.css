@@ -182,6 +182,10 @@
         color: #4A494A;
     }
     
+    .text-details span{
+        font-weight: 700;
+    }
+
     .sub-title{
         font-size: 5vw;
         margin-top: 2%;
