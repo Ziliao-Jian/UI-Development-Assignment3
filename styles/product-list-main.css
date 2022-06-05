@@ -83,6 +83,7 @@
 
 .book-name:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .add-cart:hover{
