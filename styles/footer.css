@@ -39,11 +39,8 @@ footer{
 @media (max-width:720.2px) {
     .footer-box {
         display: block;
-        justify-content: center;
         height: 130px;
         background-color: #176265;
-        column-gap: 30px;
-        align-items: center;
         position: relative;
         padding-top: 15px;
     }
@@ -54,9 +51,12 @@ footer{
         
     }
 
+    .info-type{
+        margin-right: 12px;
+    }
+
     .contact-info{
         display: flex;
-        column-gap: 12px;
         justify-content: center;
     }
 
