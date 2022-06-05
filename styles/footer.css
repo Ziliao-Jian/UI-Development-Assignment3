@@ -56,7 +56,7 @@ footer{
 
     .contact-info{
         display: flex;
-        column-gap: 2%;
+        column-gap: 12px;
         justify-content: center;
     }
 
